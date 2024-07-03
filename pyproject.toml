@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "demo-python-graphql"
+version = "0.1.0"
+description = ""
+authors = ["natthasath <natthasath.sak@gmail.com>"]
+license = "MIT License"
+readme = "README.md"
+packages = [{include = "demo_python_graphql"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+graphql-core-next = "^1.1.1"
+flask = "^3.0.3"
+pydantic = "^2.8.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
