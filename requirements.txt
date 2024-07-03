@@ -1,3 +1,5 @@
 graphene
+pydantic
+graphql-core
 flask
 flask-graphql
